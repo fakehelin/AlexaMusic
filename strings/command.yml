@@ -26,19 +26,19 @@ LYRICS_COMMAND : ["lyrics"]
 
 
 # Admin Commands
-AUTH_COMMAND : ["auth"]
-UNAUTH_COMMAND : ["unauth"]
-AUTHUSERS_COMMAND : ["authusers"]
-PAUSE_COMMAND : ["pause", "cpause"]
-RESUME_COMMAND : ["resume", "cresume"]
-MUTE_COMMAND : ["mute", "cmute"]
-UNMUTE_COMMAND : ["unmute", "cunmute"]
-STOP_COMMAND : ["stop", "end", "cstop", "cend"]
-SKIP_COMMAND : ["skip", "cskip"]
-SHUFFLE_COMMAND : ["shuffle", "cshuffle"]
-LOOP_COMMAND : ["loop", "cloop"]
-SEEK_COMMAND : ["seek", "cseek", "seekback", "cseekback"]
-RESTART_COMMAND : ["reboot"]
+AUTH_COMMAND : ["auth", "al"]
+UNAUTH_COMMAND : ["unauth","ver"]
+AUTHUSERS_COMMAND : ["authusers", "yetkili"]
+PAUSE_COMMAND : ["pause", "cpause", "dur"]
+RESUME_COMMAND : ["resume", "cresume", "devam"]
+MUTE_COMMAND : ["mute", "cmute", "sessiz"]
+UNMUTE_COMMAND : ["unmute", "cunmute", "sesli"]
+STOP_COMMAND : ["stop", "end", "cstop", "cend", "son", "bitir"]
+SKIP_COMMAND : ["skip", "cskip", "atla"]
+SHUFFLE_COMMAND : ["shuffle", "cshuffle", "karıştır"]
+LOOP_COMMAND : ["loop", "cloop", "tekrar"]
+SEEK_COMMAND : ["seek", "cseek", "seekback", "cseekback", "ilerisar", "gerisar"]
+RESTART_COMMAND : ["reboot", "yenidenbaslat"]
 
 # Sudo Users Commaands
 
@@ -48,7 +48,7 @@ DELSUDO_COMMAND : ["delsudo", "rmsudo"]
 SUDOUSERS_COMMAND : ["sudolist", "listsudo"]
 
 #Broadcast 
-BROADCAST_COMMAND : ["broadcast", "gcast"]
+BROADCAST_COMMAND : ["broadcast", "gcast","reklam"]
 
 #Blacklist chat
 BLACKLISTCHAT_COMMAND : ["blacklistchat", "blchat"]
